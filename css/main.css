@@ -1,0 +1,7 @@
+input {
+   display: block;   
+}
+
+#total {
+    border: 1px solid red;   
+}
