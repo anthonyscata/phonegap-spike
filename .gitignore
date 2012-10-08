@@ -4,3 +4,13 @@
 /splash/Thumbs.db
 /splash/android/Thumbs.db
 /splash/ios/Thumbs.db
+/.settings
+/target
+/.classpath
+/.project
+/src/main/webapp/icons/Thumbs.db
+/src/main/webapp/icons/ios/Thumbs.db
+/src/main/webapp/img/Thumbs.db
+/src/main/webapp/splash/android/Thumbs.db
+/src/main/webapp/splash/ios/Thumbs.db
+/src/main/webapp/splash/Thumbs.db

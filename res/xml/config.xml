@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id="PhoneGap Spike"
+	version="0.1.1">
+
+	<name>PhoneGap Spike</name>
+
+	<description>
+		A simple phonegap spike to calculate two numbers
+	</description>
+
+	<author href="http://imaginatelabs.com"	email="anthony.scata@imaginatelabs.com">
+		Anthony Scata
+	</author>
+	
+	<preference name="phonegap-version" value="2.0.0" />
+	<preference name="orientation" value="default" />
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="false" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />'
+
+	<icon src="icons/iphone_icon.png" width="57" height="57" />
+	<icon src="icons/iphone_icon2.png" gap:platform="ios" width="72" height="72" />
+	<icon src="icons/iphone_icon_2x.png" width="114" height="114" />
+	
+	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<gap:splash src="splash/iphone_startup.png" width="320" height="480" />
+	<gap:splash src="splash/iphone_startup_2x.png" width="640" height="960" />
+	<gap:splash src="splash/iphone_startup_l.png" width="1024" height="768" />
+	<gap:splash src="splash/iphone_startup_p.png" width="768" height="1024" />
+	
+	<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+</widget> 

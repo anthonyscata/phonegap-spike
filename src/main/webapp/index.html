@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PhoneGap Spike</title>
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; user-scalable=no; width=device-width; height=device-height;" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />	
+	<link rel="apple-touch-startup-image" href="splash/ios/iphone_startup.png" />
+	<link rel="apple-touch-icon" href="icon/iso/iphone_icon.png" />
+	<link id="mainCSS" type="text/css" rel="stylesheet" media="screen" href="css/main.css">
+	<link id="bootstrap" type="text/css" rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+	<link id="bootstrap-responsive" type="text/css" rel="stylesheet" media="screen" href="css/bootstrap-responsive.min.css">
+	<script type="text/javascript" src="javascript/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">PhoneGap Spike</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+	    <div class="container">
+Number 1: <input type="number" class="qty" value="0" size="5" /> <br/>
+Number 2: <input type="number" class="qty" value="0" size="5"/> <br />
+Total: <input type="number" id="total" value="0" size="5" readonly="readonly"/> <br />
+	<script>
+	$('input.qty').change(function() {   
+	    
+    // Loop through all input's and re-calculate the total
+    var total = 0;
+    $('input.qty').each(function(){
+        total += parseInt(this.value);
+    });
+    
+    // Update the total
+    $('#total').val(total);
+});
+</script>
+ </div> 
+</body>
+</html>
