@@ -33,9 +33,18 @@
       </div>
     </div>
 	    <div class="container">
-Number 1: <input type="number" class="qty" value="0" size="5" /> <br/>
-Number 2: <input type="number" class="qty" value="0" size="5"/> <br />
-Total: <input type="number" id="total" value="0" size="5" readonly="readonly"/> <br />
+	    	<div class="row-fluid">
+	    		<div class="span6" align="center">
+					Number 1: <input type="number" class="qty" value="0" size="5" />
+				</div>
+				<div class="span6" align="center">
+					Number 2: <input type="number" class="qty" value="0" size="5"/>
+				</div>
+				<div class="span12" align="center">
+					Total: <input type="number" id="total" value="0" size="5" readonly="readonly"/>
+				</div>
+			</div>
+		</div>
 	<script>
 	$('input.qty').change(function() {   
 	    
@@ -49,6 +58,5 @@ Total: <input type="number" id="total" value="0" size="5" readonly="readonly"/> 
     $('#total').val(total);
 });
 </script>
- </div> 
 </body>
 </html>
